@@ -92,5 +92,13 @@ header{
   overflow-x: hidden;
     
   }
+.attribution{
+    font-family: 'Itim', sans-serif;
+    font-weight: 300;
+    color: rgb(176, 156, 27);
+    margin-top:2px;
+    font-size:1rem;
+    text-align: center;
+    background-color: rgb(45, 58, 69);
 }
 
