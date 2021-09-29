@@ -4,13 +4,16 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-p{
-  line-height: 25px;
+p {
+  line-height: 30px;
 }
 body {
   background-color: #e5e5e5;
 }
-
+.bolet {
+  font-family: cursive;
+  line-height: 30px;
+}
 #navbar {
   height: 100%;
   width: 230px;
@@ -22,7 +25,7 @@ body {
   top: 0;
   left: 0;
   padding-top: 10px;
-  diplay: inline-block;
+  display: inline-block;
 }
 
 #navbar li {
@@ -46,7 +49,7 @@ body {
   width: 100%;
   text-align: center;
 }
-.nav-header{
+.nav-header {
   color: #fca311;
   font-family: "Domine", serif;
   text-align: center;
@@ -59,7 +62,7 @@ header {
   font-family: "Domine", serif;
   font-weight: bold;
   text-align: center;
-  font-size:16px;
+  font-size: 16px;
 }
 
 .main-section {
