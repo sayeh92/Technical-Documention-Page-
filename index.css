@@ -1,97 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
 
-
-*{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
+p {
+  line-height: 30px;
+}
 body {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
-
+.bolet {
+  font-family: cursive;
+  line-height: 30px;
+}
 #navbar {
-    height: 100%;
-    width: 230px;
-    position: fixed;
- 
-    background-color: #14213d;
-    border-radius: 3px;
-    border: 1px solid black;
-    top: 0;
-    left: 0;
-    padding-top: 10px;
-  diplay: inline-block;
-   
+  height: 100%;
+  width: 230px;
+  position: fixed;
+
+  background-color: #14213d;
+  border-radius: 3px;
+  border: 1px solid black;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  display: inline-block;
 }
 
 #navbar li {
-    list-style: none;
-    padding: 30px 2px 3px 1px;
-    font-weight: 4rem; 
-    margin-left: 5px;
+  list-style: none;
+  padding: 30px 2px 3px 1px;
+  font-weight: 4rem;
+  margin-left: 5px;
 }
 
 #navbar li a {
-    display: block;
-    text-decoration: none;
-    /*The cool thing I found out is that you should not target a alone, because you can have "a" somewhere else and you change their style accidentally.*/
-    font-family: 'Domine', serif;
-    color:#e5e5e5;
+  display: block;
+  text-decoration: none;
+  /*The cool thing I found out is that you should not target a alone, because you can have "a" somewhere else and you change their style accidentally.*/
+  font-family: "Domine", serif;
+  color: #e5e5e5;
 }
 
 #navbar li a:hover {
-    border-bottom: 3px solid #fca311;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
+  border-bottom: 3px solid #fca311;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
 }
-
-header{
-    color: #fca311;
-    font-family: 'Domine', serif;
-    text-align: center;
-    text-shadow: 1px 1px 2px rgb(5, 5, 5);
-    font-size: 15px;
+.nav-header {
+  color: #fca311;
+  font-family: "Domine", serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(5, 5, 5);
+  font-size: 27px;
+}
+header {
+  color: #ea970f;
+  margin: 20px 0px 20px 0px;
+  font-family: "Domine", serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
 }
 
 .main-section {
-    margin: auto;
-    text-align: left;
-    margin-left: 250px;
-    padding-top: 15px;
+  margin: auto;
+  text-align: left;
+  margin-left: 250px;
+  padding-top: 15px;
   overflow-x: hidden;
-    
 }
 #navbar ul {
-    height: 88%;
-    padding: 0;
-    overflow-y:scroll;
-    overflow-x:hidden;
-  
-  }
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
-  code {
-      background-color: white;
-      display: block;
-      font-weight: bold;
-      white-space: pre;
-  }
+code {
+  background-color: white;
+  display: block;
+  font-weight: bold;
+  white-space: pre;
+}
 
-@media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 400px) {
   #main-doc {
     margin-left: -10px;
-    
   }
 }
 
-@media only screen and (max-width: 815px) { 
+@media only screen and (max-width: 815px) {
   #navbar ul {
-  height: 88%;
-  padding: 0;
-  overflow-y: auto; 
-  overflow-x: hidden;
-    }
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
-
-
+}
